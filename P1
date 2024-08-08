@@ -1,0 +1,20 @@
+\documentclass{article}
+\usepackage{fancyhdr}
+\usepackage{lipsum} % for dummy text
+
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+\fancyhead[R]{Latex Programming} % Right header
+\fancyfoot[R]{\thepage} % Right header
+\fancyfoot[L]{VVIET, Mysore} % Left footer
+
+\begin{document}
+	\section{Section 1}
+	
+	\lipsum[1-2]
+
+	\section{Section 2}
+	
+	\lipsum[1]
+
+\end{document}
