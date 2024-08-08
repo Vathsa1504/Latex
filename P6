@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\begin{document}
+	
+	\begin{figure}[h!]
+		\centering
+		\begin{subfigure}[b]{0.4\linewidth}
+			\includegraphics[width=\linewidth]{/home/dhanu/Pictures/Pappu Photos/Lumix/P1202356.JPG}
+			\caption{Caption for Image 1}
+			\label{fig:img1}
+		\end{subfigure}
+		\hspace{0.1\linewidth}
+		\begin{subfigure}[b]{0.4\linewidth}
+			\includegraphics[width=\linewidth]{/home/dhanu/Pictures/Pappu Photos/Lumix/P1202379.JPG}
+			\caption{Caption for Image 2}
+			\label{fig:img2}
+		\end{subfigure}
+		\caption{Main caption for both images}
+		\label{fig:both_images}
+	\end{figure}
+	
+\end{document}
