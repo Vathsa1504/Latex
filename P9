@@ -1,0 +1,29 @@
+\documentclass{article}
+
+\begin{document}
+	
+	\title{Introduction to Latex}
+	\author{Dhananjaya Kumar K}
+	\date{\today}
+	\maketitle
+	
+	\section{Introduction}
+	
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae sagittis nunc \cite{citation1}, \cite{citation2}, \cite{citation3}, \cite{citation4}, \cite{citation5}, \cite{citation6}. Proin sit amet aliquet massa. Maecenas non risus id turpis bibendum gravida. Nam nec ullamcorper metus \cite{citation7}, \cite{citation8}, \cite{citation9}. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus eget enim eu est volutpat laoreet \cite{citation10}.
+	
+	Integer sodales, justo id accumsan efficitur, nisl turpis tincidunt arcu, in consequat enim turpis ac quam \cite{citation11}. Curabitur vel lorem sit amet lorem consequat pulvinar ut ut risus \cite{citation12}. Fusce varius neque eget tortor lobortis convallis \cite{citation13}.
+	
+	\section{References}
+	
+	\begin{thebibliography}{99}
+		\bibitem{citation1} K Dhananajaya Kumar, J Akash. (2024). Introduction to Latex. \emph{IJRRT}, \textbf{Vol 3}(Issue 4), 45-56.
+		\bibitem{citation2} Author2, B. (Year). Title of the paper. \emph{Journal Name}, \textbf{Volume}(Issue), page range.
+		\bibitem{citation3} Author3, C. (Year). Title of the paper. \emph{Journal Name}, \textbf{Volume}(Issue), page range.
+		\bibitem{citation4} Author4, D. (Year). Title of the paper. \emph{Journal Name}, \textbf{Volume}(Issue), page range.
+		\bibitem{citation5} Author5, E. (Year). Title of the paper. \emph{Journal Name}, \textbf{Volume}(Issue), page range.
+		\bibitem{citation6} Author6, F. (Year). Title of the paper. \emph{Journal Name}, \textbf{Volume}(Issue), page range.
+		\bibitem{citation7} Author7, G. (Year). Title of the paper. \emph{Journal Name}, \textbf{Volume}(Issue), page range.
+		\bibitem{citation8} Author8, H. (Year). Title of the paper. \emph{Journal Name}, \textbf{Volume}(Issue), page range.
+		\bibitem{citation9} Author9, I. (Year). Title of the paper. \emph{Journal Name}, \textbf{Volume}(Issue), page range.
+		\bibitem{citation10} Author10, J. (Year). Title of the paper. \emph{Journal Name}, \textbf{Volume}(Issue), page range.
+	\end{thebibliography}
