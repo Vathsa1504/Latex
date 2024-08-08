@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+	
+	\title{Mathematical Equations}
+	\author{Your Name}
+	\date{\today}
+	\maketitle
+	
+	\section*{Equations}
+	
+	\subsection*{Equation 1}
+	The quadratic equation is:
+	
+	\begin{equation}
+			x = \frac{{-b \pm \sqrt{{b^2 - 4ac}}}}{{2a}}\\
+			= \frac{{-2 \pm \sqrt{{2^2-4*(1)*(-8)}}}}{{(2)}*{(1)}}\\
+				= \frac{{-2}\pm \sqrt{{4}+{32}}}{2}
+	\end{equation}
+	
+	where \( a,b,c \) are the coefficient values.
+	
+	\subsection*{Equation 2}
+	The second equation is:
+	
+	\begin{equation}
+		\frac{d^2y}{dx^2} + \omega^2 y = 0
+	\end{equation}
+	
+	where \( y(x) \) is a function of \( x \) and \( \omega \) is a constant.
+	
+\end{document}
