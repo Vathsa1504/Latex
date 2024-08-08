@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{multirow}
+
+\begin{document}
+	\begin{table}
+		\caption{Student Results}
+		
+		\centering
+		\begin{tabular}{|c|c|c|c|c|c}
+			\hline
+			\multirow{2}{*}{SL NO} & \multirow{2}{*}{USN} & \multirow{2}{*}{Student Name}&  \multicolumn{3}{|c|}{MARKS}\\
+			\cline{4-6}& & &JAVA & DBMS & Python \\
+			\hline
+			1 & ABC &  4VM20CS001 & 89 & 60 & 90 \\
+			\hline
+			2 & MNQ &  4VM20CS002 & 75 & 45 & 98 \\
+			\hline
+			3 & XYZ &  4VM20CS004 & 67 & 55 & 59 \\
+			\hline
+		\end{tabular}
+	\end{table}
+\end{document}
