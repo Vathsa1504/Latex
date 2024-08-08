@@ -1,0 +1,34 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+
+\geometry{
+	a4paper,
+	total={170mm,257mm},
+	left=20mm,
+	top=20mm,
+}
+
+\begin{document}
+	
+	\begin{titlepage}
+		\centering
+		\includegraphics[width=0.3\textwidth]{/home/dhanu/Desktop/Latex/vtu_logo.png}\par
+		{\LARGE \textbf{Visvesvaraya Technological University}\par}
+		\vspace{1cm}
+		{\Large Department of Computer Science and Engineering\par}
+		\vspace{2cm}
+		{\Huge\bfseries Technical Writing using LaTeX\par}
+		\vspace{2cm}
+		{\Large Submitted by:\par}
+		{\large Arun Kumar\par}
+		{\large 4VM24CS010\par}
+		\vspace{1cm}
+		{\Large Guide: \par}
+		{\large Dhananjaya Kumar K\par}
+		\vfill
+		{\large VIII SEMESTER\par}
+	\end{titlepage}
+	
+\end{document}
